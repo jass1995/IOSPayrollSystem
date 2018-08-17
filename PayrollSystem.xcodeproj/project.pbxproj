@@ -12,6 +12,8 @@
 		9B64F99421222A0A007FF210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B64F99221222A0A007FF210 /* Main.storyboard */; };
 		9B64F99621222A0F007FF210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B64F99521222A0F007FF210 /* Assets.xcassets */; };
 		9B64F99921222A0F007FF210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B64F99721222A0F007FF210 /* LaunchScreen.storyboard */; };
+		9B8A196B2125F92D00C8A53B /* AddEmpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A196A2125F92D00C8A53B /* AddEmpViewController.swift */; };
+		9B8A196D2125FD7300C8A53B /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A196C2125FD7300C8A53B /* HomeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9B64F99521222A0F007FF210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B64F99821222A0F007FF210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B64F99A21222A0F007FF210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B8A196A2125F92D00C8A53B /* AddEmpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmpViewController.swift; sourceTree = "<group>"; };
+		9B8A196C2125FD7300C8A53B /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				9B64F99521222A0F007FF210 /* Assets.xcassets */,
 				9B64F99721222A0F007FF210 /* LaunchScreen.storyboard */,
 				9B64F99A21222A0F007FF210 /* Info.plist */,
+				9B8A196A2125F92D00C8A53B /* AddEmpViewController.swift */,
+				9B8A196C2125FD7300C8A53B /* HomeTableViewController.swift */,
 			);
 			path = PayrollSystem;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B8A196D2125FD7300C8A53B /* HomeTableViewController.swift in Sources */,
 				9B64F99121222A0A007FF210 /* ViewController.swift in Sources */,
 				9B64F98F21222A0A007FF210 /* AppDelegate.swift in Sources */,
+				9B8A196B2125F92D00C8A53B /* AddEmpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
